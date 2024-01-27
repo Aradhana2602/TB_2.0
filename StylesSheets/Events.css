@@ -28,30 +28,33 @@ ul{
     color: rgba(5, 217, 232, 1);
     font-weight: 700;
 }
-.trapezoid {
-    clip-path: polygon(0 0, 100% 0, 74% 100%, 18% 100%);
-    background-color: aquamarine;
-}
-.trapezoid::after{
-    border-left: 70px solid #1e90ff;
-    border-right: 70px solid transparent;
-    border-top: 140px solid transparent;
-    border-bottom: 140px solid transparent;
-}
+
 .custom-shape { 
     position: relative; 
-    width: 200px; 
-    height: 200px; 
-    background-color: rgba(5, 217, 232, 1);; 
-    clip-path: polygon(0 0, 100% 0, 74% 100%, 18% 100%);; 
+    width: 203px; 
+    height: 40px; 
+    margin-left: 100px;
+    background-color: rgba(5, 217, 232, 1);
+    clip-path: polygon(0 0, 100% 0, 74% 100%, 18% 100%);
     display: flex; 
     align-items: center; 
     justify-content: center; 
 } 
 
 .border-span { 
-    width:190px; 
-    height:190px; 
+    width: 200px; 
+    height: 37px; 
     clip-path: polygon(0 0, 100% 0, 74% 100%, 18% 100%);
     background-color: rgba(217, 217, 217, 1); 
+}
+
+.home{
+    padding-right: 30px;
+}
+
+.box{
+    width: 50px;
+    height: 20px;
+    padding-top: 10px;
+    background-color: black;
 }
